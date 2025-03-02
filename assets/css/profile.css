@@ -1,0 +1,82 @@
+body,.modal {
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tooltip {
+    z-index: 9999 !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.icon{
+    font-size: 26px;
+}
+
+.profile-icon{
+    width: 34px;
+    cursor: pointer;
+}
+
+.profile{
+    position: relative;
+}
+
+.profile-picture{
+    border: 3px solid #10a3e7 ;
+    max-width: 196px;
+    max-height: 196px;
+    min-width: 196px;
+    min-height: 196px;
+    object-fit:fill;
+}
+
+.edit-image{
+    font-size: 24px;
+    background-color: #10a3e7;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.baby{
+    color: #10a3e7 ;
+}
+
+.btn-baby{
+    background-color: #10a3e7;
+    color: white;
+}
+
+.btn-baby:hover{
+    background-color: #0b8ac5;
+    color: white;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #10a3e7;
+    color: white;
+}
+
+.msgs{
+    position: relative;
+}
+
+.msgs-alert{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}

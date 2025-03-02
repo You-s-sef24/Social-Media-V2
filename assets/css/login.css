@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.baby{
+    color: #10a3e7 ;
+}
+
+.btn-baby{
+    background-color: #10a3e7;
+    color: white;
+}
+
+.btn-baby:hover{
+    background-color: #10a3e7;
+    color: white;
+}

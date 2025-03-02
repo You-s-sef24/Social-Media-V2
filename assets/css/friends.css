@@ -1,0 +1,67 @@
+body {
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.nav-link{
+    font-size: 26px;
+    cursor: pointer;
+}
+.profile-icon{
+    width: 34px;
+    cursor: pointer;
+}
+
+.bg-baby{
+    background-color: #10a3e7;
+}
+
+.baby{
+    color: #10a3e7 ;
+}
+.card{
+    border: none;
+}
+.post-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.post-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 700px;
+    width: auto;
+}
+.btn-baby{
+    background-color: #10a3e7;
+    color: white;
+}
+.btn-baby:hover{
+    background-color: #10a3e7;
+    color: white;
+}
+
+.msgs{
+    position: relative;
+}
+
+.msgs-alert{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
